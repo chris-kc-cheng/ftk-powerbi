@@ -1,2 +1,3 @@
-# ftk-powerbi
-Financial Toolkit in PowerBI
+# Financial Toolkit in PowerBI
+
+This is a experimental repository
