@@ -22,3 +22,5 @@ This is a experimental repository
 ## Chapter 8: Time Intelligence
 
 ## Chapter 9: Calculation Groups
+
+> [!WARNING] The calculation group column slicer applies to all visuals on the page by default. Disable this default behaviour using Edit Interaction.
