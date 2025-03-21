@@ -10,7 +10,7 @@ This report shows the values of individual securities as well as the total payof
 
 The theoretical values of the options are calculated using the Black-Scholes model.
 
-<img src="images/options.png" alt="Option Strategies" width="500" />
+<img src="images/options.gif" alt="Option Strategies" width="500" />
 
 # Appendix I: Notes on DAX
 
