@@ -6,11 +6,11 @@ This is a experimental repository
 
 The Metrics page shows the performance and risk metrics. There are slicers to select different fund, benchmark, risk-free rate, time horizon, market type (up, down, all) and confidence interval.
 
-<img src="images/ftk-options.png" alt="Metrics" width="500" />
+<img src="images/ftk_metrics.png" alt="Metrics" width="500" />
 
 The Charts page shows the time series of a selected performance or risk metric on a cumulative, rolling, trailing basis or by calendar year.
 
-<img src="images/ftk-charts.png" alt="Charts" width="500" />
+<img src="images/ftk_charts.png" alt="Charts" width="500" />
 
 ## Project 2: Option Strategies
 
