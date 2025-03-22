@@ -26,7 +26,7 @@ The theoretical values of the options are calculated using the Black-Scholes mod
 
 ## Chapter 5: CALCULATE and CALCULATETABLE
 
-## Chapter 5: Variables
+## Chapter 6: Variables
 `VAR` is actually a constant
 
 ## Chapter 8: Time Intelligence
