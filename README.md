@@ -4,13 +4,21 @@ This is a experimental repository
 
 ## Project 1: Time Series Analysis
 
+The Metrics page shows the performance and risk metrics. There are slicers to select different fund, benchmark, risk-free rate, time horizon, market type (up, down, all) and confidence interval.
+
+<img src="images/ftk-options.png" alt="Metrics" width="500" />
+
+The Charts page shows the time series of a selected performance or risk metric on a cumulative, rolling, trailing basis or by calendar year.
+
+<img src="images/ftk-charts.png" alt="Charts" width="500" />
+
 ## Project 2: Option Strategies
 
 This report shows the values of individual securities as well as the total payoff of the option strategy.
 
 The theoretical values of the options are calculated using the Black-Scholes model.
 
-<img src="images/options.gif" alt="Option Strategies" width="500" />
+<img src="images/options.png" alt="Option Strategies" width="500" />
 
 # Appendix I: Notes on DAX
 
