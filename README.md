@@ -20,6 +20,12 @@ The theoretical values of the options are calculated using the Black-Scholes mod
 
 <img src="images/options.png" alt="Option Strategies" width="500" />
 
+# Project 3: MSCI Real Time Index
+
+This report shows the year-to-date returns of major MSCI indexes.
+
+<img src="images/msci.png" alt="MSCI Real Time Index" width="500" />
+
 # Appendix I: Notes on DAX
 
 [The Definitive Guide to DAX – 2nd Edition](https://www.sqlbi.com/books/the-definitive-guide-to-dax-2nd-edition/companion/)
