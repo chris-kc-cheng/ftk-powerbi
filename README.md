@@ -1,28 +1,28 @@
 # Financial Toolkit in PowerBI
 
-This is a experimental repository
+This is an experimental repository created for learning and educational purposes.
 
 ## Project 1: Time Series Analysis
 
-The Metrics page displays performance and risk metrics, with slicers to select the fund, benchmark, risk-free rate, time horizon, market type (up, down, or all), and confidence interval.
+This PowerBI report contains two pages. The **Metrics** page displays key performance and risk metrics, with interactive slicers to select the fund, benchmark, risk-free rate, time horizon, market condition (up, down, or all), and confidence interval.
 
-<img src="images/ftk_metrics.png" alt="Metrics" width="500" />
+<img src="images/ftk_metrics.png" alt="Metrics" />
 
-The Charts page displays the time series of a selected performance or risk metric, presented on a cumulative, rolling, trailing, or calendar-year basis.
+The **Charts** page visualizes the time series of a selected performance or risk metric, which can be displayed on a cumulative, rolling, trailing, or calendar-year basis.
 
-<img src="images/ftk_charts.png" alt="Charts" width="500" />
+<img src="images/ftk_charts.png" alt="Charts" />
 
 ## Project 2: Option Strategies
 
-This report presents the values of individual securities along with the total hypothetical payoff of the option strategy. Theoretical option values are computed using the Black-Scholes model.
+This PowerBI report presents the values of individual securities and the total payoffs of various option strategies. Theoretical option values are calculated using the Black-Scholes model.
 
-<img src="images/options.png" alt="Option Strategies" width="500" />
+<img src="images/options.png" alt="Option Strategies" />
 
 ## Project 3: MSCI Real Time Index
 
-This report presents the year-to-date returns of major MSCI indexes.
+The PowerBI report uses PowerQuery to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
 
-<img src="images/msci.png" alt="MSCI Real Time Index" width="500" />
+<img src="images/msci.png" alt="MSCI Real Time Index" />
 
 # Appendix I: Notes on DAX
 <details>
