@@ -4,7 +4,7 @@ This is an experimental repository created for learning and educational purposes
 
 ## Project 1: Time Series Analysis
 
-This PowerBI report contains two pages. The **Metrics** page displays key performance and risk metrics, with interactive slicers to select the fund, benchmark, risk-free rate, time horizon, market condition (up, down, or all), and confidence interval.
+The [Time Series Analysis](Time%20Series%20Analysis.pbix) report contains two pages. The **Metrics** page displays key performance and risk metrics, with interactive slicers to select the fund, benchmark, risk-free rate, time horizon, market condition (up, down, or all), and confidence interval.
 
 <img src="images/ftk_metrics.png" alt="Metrics" />
 
@@ -14,13 +14,13 @@ The **Charts** page visualizes the time series of a selected performance or risk
 
 ## Project 2: Option Strategies
 
-This PowerBI report presents the values of individual securities and the total payoffs of various option strategies. Theoretical option values are calculated using the Black-Scholes model.
+The [Option Strategies](Option%20Strategies.pbix) report presents the values of individual securities and the total payoffs of various option strategies. Theoretical option values are calculated using the Black-Scholes model.
 
 <img src="images/options.png" alt="Option Strategies" />
 
 ## Project 3: MSCI Real Time Index
 
-The PowerBI report uses PowerQuery to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
+The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses PowerQuery to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
 
 <img src="images/msci.png" alt="MSCI Real Time Index" />
 
