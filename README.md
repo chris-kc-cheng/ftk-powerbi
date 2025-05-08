@@ -25,7 +25,7 @@ This report presents the year-to-date returns of major MSCI indexes.
 <img src="images/msci.png" alt="MSCI Real Time Index" width="500" />
 
 # Appendix I: Notes on DAX
-<detail>
+<details>
     <summary>Under construction</summary>
 [The Definitive Guide to DAX – 2nd Edition](https://www.sqlbi.com/books/the-definitive-guide-to-dax-2nd-edition/companion/)
 
@@ -48,4 +48,4 @@ This report presents the year-to-date returns of major MSCI indexes.
 
 > [!WARNING]  
 > The calculation group column slicer applies to all visuals on the page by default. Disable this default behaviour using Edit Interaction.
-</detail>
+</details>
