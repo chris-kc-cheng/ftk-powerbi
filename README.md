@@ -20,9 +20,15 @@ The [Option Strategies](Option%20Strategies.pbix) report presents the values of 
 
 ## Project 3: MSCI Real Time Index
 
-The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses PowerQuery to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
+The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses Power Query to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
 
 <img src="images/msci.png" alt="MSCI Real Time Index" />
+
+## Project 4: Stock Monitor
+
+The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve historical stock prices from Yahoo! Finance and displays them in a line chart.
+
+<img src="images/stocks.png" alt="Stock Monitor" />
 
 # Appendix I: Notes on DAX
 <details>
