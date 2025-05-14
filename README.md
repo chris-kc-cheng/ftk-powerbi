@@ -26,7 +26,7 @@ The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses Power Qu
 
 ## Project 4: Stock Monitor
 
-The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve historical stock prices from Yahoo! Finance and displays them in a line chart.
+The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve historical stock prices from Yahoo! Finance and displays them in a line chart. A slicer is included to normalize the starting stock price to $100, enabling a more meaningful comparison across different stocks.
 
 <img src="images/stocks.png" alt="Stock Monitor" />
 
