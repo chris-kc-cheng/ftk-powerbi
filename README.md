@@ -30,6 +30,12 @@ The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve hi
 
 <img src="images/stocks.png" alt="Stock Monitor" />
 
+## Project 5: Yield Curve
+
+The [Yield Curve](Yield%20Curve.pbix) report uses Power Query to retrieve historical par yield data from the US Treasury and presents changes in the yield curve using a line chart. An additional line chart illustrates the historical movement of yields across different maturities.
+
+<img src="images/yield_curve.png" alt="Yield Curve" />
+
 # Appendix I: Notes on DAX
 <details>
     <summary>Under construction</summary>
