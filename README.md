@@ -30,11 +30,15 @@ The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve hi
 
 <img src="images/stocks.png" alt="Stock Monitor" />
 
-## Project 5: Yield Curve
+## Project 5: Yield Curve and Option-Adjusted Spread
 
 The [Yield Curve](Yield%20Curve.pbix) report uses Power Query to retrieve historical par yield data from the US Treasury and presents changes in the yield curve using a line chart. An additional line chart illustrates the historical movement of yields across different maturities.
 
 <img src="images/yield_curve.png" alt="Yield Curve" />
+
+In the OAS worksheet, Power Query retrieves historical Option-Adjusted Spread (OAS) data from the Federal Reserve Economic Data (FRED) database and visualizes the selected OAS trends over time.
+
+<img src="images/oas.png" alt="Option-Adjusted Spread" />
 
 # Appendix I: Notes on DAX
 <details>
