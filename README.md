@@ -40,6 +40,12 @@ In the OAS worksheet, Power Query retrieves historical Option-Adjusted Spread (O
 
 <img src="images/oas.png" alt="Option-Adjusted Spread" />
 
+## Project 6: Purchasing Power Parity
+
+The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the Purchasing Power Parity (PPP) conversion factor from the World Bank and annual exchange rates from the Bank of Canada to calculate the extent to which a currency is overvalued or undervalued relative to its Purchasing Power Parity (PPP)-implied value against the Canadian dollar.
+
+<img src="images/ppp.png" alt="Purchasing Power Parity" />
+
 # Appendix I: Notes on DAX
 <details>
     <summary>Under construction</summary>
