@@ -40,6 +40,10 @@ In the OAS worksheet, Power Query retrieves historical Option-Adjusted Spread (O
 
 <img src="images/oas.png" alt="Option-Adjusted Spread" />
 
+In the Policy Rate worksheet, Power Query retrieves historical central bank policy rates from the Bank for International Settlements (BIS) database and visualizes their trends over time for the selected countries.
+
+<img src="images/policy_rate.png" alt="Central Bank Policy Rate" />
+
 ## Project 6: Purchasing Power Parity
 
 The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the Purchasing Power Parity (PPP) conversion factor from the World Bank and annual exchange rates from the Bank of Canada to calculate the extent to which a currency is overvalued or undervalued relative to its Purchasing Power Parity (PPP)-implied value against the Canadian dollar.
