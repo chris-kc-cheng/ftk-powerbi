@@ -36,6 +36,10 @@ The [Yield Curve](Yield%20Curve.pbix) report uses Power Query to retrieve histor
 
 <img src="images/yield_curve.png" alt="Yield Curve" />
 
+In the Forward Curve worksheet, Power Query retrieves the latest 1-month SOFR Average Index value, forward rates derived from SOFR futures, and the median interest rate projections published by the Federal Open Market Committee (FOMC).
+
+<img src="images/sofr.png" alt="SOFR Forward Rate" />
+
 In the OAS worksheet, Power Query retrieves historical Option-Adjusted Spread (OAS) data from the Federal Reserve Economic Data (FRED) database and visualizes the selected OAS trends over time.
 
 <img src="images/oas.png" alt="Option-Adjusted Spread" />
@@ -49,29 +53,3 @@ In the Policy Rate worksheet, Power Query retrieves historical central bank poli
 The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the Purchasing Power Parity (PPP) conversion factor from the World Bank and annual exchange rates from the Bank of Canada to calculate the extent to which a currency is overvalued or undervalued relative to its Purchasing Power Parity (PPP)-implied value against the Canadian dollar.
 
 <img src="images/ppp.png" alt="Purchasing Power Parity" />
-
-# Appendix I: Notes on DAX
-<details>
-    <summary>Under construction</summary>
-[The Definitive Guide to DAX – 2nd Edition](https://www.sqlbi.com/books/the-definitive-guide-to-dax-2nd-edition/companion/)
-
-## Chapter 1: DAX
-
-## Chapter 2: DAX
-
-## Chapter 3: Basic Table Functions
-
-## Chapter 4: Evaluation Context
-
-## Chapter 5: CALCULATE and CALCULATETABLE
-
-## Chapter 6: Variables
-`VAR` is actually a constant
-
-## Chapter 8: Time Intelligence
-
-## Chapter 9: Calculation Groups
-
-> [!WARNING]  
-> The calculation group column slicer applies to all visuals on the page by default. Disable this default behaviour using Edit Interaction.
-</details>
