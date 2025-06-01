@@ -1,5 +1,5 @@
 > [!TIP]
-> 2025-05-31: Added Exchange Rates
+> 2025-05-31: Added [Exchange Rates](#project-7-exchange-rates)
 
 # Financial Toolkit in PowerBI
 
