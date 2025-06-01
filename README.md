@@ -53,3 +53,9 @@ In the Policy Rate worksheet, Power Query retrieves historical central bank poli
 The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the Purchasing Power Parity (PPP) conversion factor from the World Bank and annual exchange rates from the Bank of Canada to calculate the extent to which a currency is overvalued or undervalued relative to its Purchasing Power Parity (PPP)-implied value against the Canadian dollar.
 
 <img src="images/ppp.png" alt="Purchasing Power Parity" />
+
+## Project 6: Exchange Rates
+
+The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time.
+
+<img src="images/forex.png" alt="Exchange Rates" />
