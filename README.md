@@ -1,3 +1,6 @@
+> [!TIP]
+> 2025-05-31: Added Exchange Rates
+
 # Financial Toolkit in PowerBI
 
 This is an experimental repository created for learning and educational purposes.
@@ -54,7 +57,7 @@ The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the P
 
 <img src="images/ppp.png" alt="Purchasing Power Parity" />
 
-## Project 6: Exchange Rates
+## Project 7: Exchange Rates
 
 The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time.
 
