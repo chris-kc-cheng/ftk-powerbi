@@ -59,6 +59,6 @@ The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the P
 
 ## Project 7: Exchange Rates
 
-The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time. Use the tabs to navigate between currencies by region (note: CAD and USD are always shown for reference). Hover over any cell to view both the direct and indirect exchange rates.
+The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time. Use the tabs to navigate between currencies by region (note: CAD and USD are always shown for reference). Hover over any cell to view the direct and indirect exchange rates, as well as their respective changes during the selected period.
 
 <img src="images/forex.png" alt="Exchange Rates" />
