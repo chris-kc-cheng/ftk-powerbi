@@ -1,4 +1,5 @@
 > [!TIP]
+> 2025-06-01: Added [Futures](#project-8-future-contracts)
 > 2025-05-31: Added [Exchange Rates](#project-7-exchange-rates)
 
 # Financial Toolkit in PowerBI
@@ -62,3 +63,13 @@ The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the P
 The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time. Use the tabs to navigate between currencies by region (note: CAD and USD are always shown for reference). Hover over any cell to view the direct and indirect exchange rates, as well as their respective changes during the selected period.
 
 <img src="images/forex.png" alt="Exchange Rates" />
+
+## Project 8: Future Contracts
+
+The [Futures](Futures.pbix) report presents the top five futures by trading volume within each category.
+
+<img src="images/futures.png" alt="Futures" />
+
+To access detailed data on individual contracts and their forward curves, right-click and select **Drill Through**.
+
+<img src="images/contracts.png" alt="Contracts" />
