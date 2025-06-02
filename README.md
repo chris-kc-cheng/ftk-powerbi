@@ -1,6 +1,5 @@
 > [!TIP]
-> 2025-06-01: Added [Futures](#project-8-future-contracts)
-> 2025-05-31: Added [Exchange Rates](#project-7-exchange-rates)
+> What's new? [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
