@@ -1,5 +1,5 @@
 > [!TIP]
-> What's new? [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
+> What's new? [Hedge Fund](#project-9-hedge-fund) (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
@@ -72,3 +72,9 @@ The [Futures](Futures.pbix) report presents the top five futures by trading volu
 To access detailed data on individual contracts and their forward curves, right-click and select **Drill Through**.
 
 <img src="images/contracts.png" alt="Contracts" />
+
+## Project 9: Hedge Fund
+
+The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fund indices across different regions, investment strategies, and time horizons.
+
+<img src="images/hedge_funds.png" alt="Hedge Funds" />
