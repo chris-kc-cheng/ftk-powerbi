@@ -1,5 +1,5 @@
 > [!TIP]
-> What's new? [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
+> What's new? [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
@@ -82,3 +82,9 @@ The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fun
 The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. Users can **drill down** to view returns by quarter and month by clicking the double down ⬇️⬇️ button.
 
 <img src="images/hf_strategy_map.png" alt="Strategy Return Map" />
+
+## Project 10: Asset Return Map
+
+The [Asset Class](Asset%20Class.pbix) report presents the performance of various asset classes over time, using selected indexes or ETFs as proxies. In addition to the VAMI chart, risk/reward scatterplot, and correlation matrix, it also includes an asset map that displays annual performance by calendar year.
+
+<img src="images/asset_class.png" alt="Asset Return Map" />
