@@ -85,6 +85,10 @@ The second worksheet displays the flagship hedge fund indexes using a Value Adde
 
 ## Project 10: Asset Return Map
 
-The [Asset Class](Asset%20Class.pbix) report presents the performance of various asset classes over time, using selected indexes or ETFs as proxies. In addition to the VAMI chart, risk/reward scatterplot, and correlation matrix, it also includes an asset map that displays annual performance by calendar year.
+The [Asset Class](Asset%20Class.pbix) report presents the performance of various asset classes over time, using selected indexes or ETFs as proxies.
 
 <img src="images/asset_class.png" alt="Asset Return Map" />
+
+In the other worksheet, the asset class returns are displayed in a tabular format, sorted in descending order by return for each calendar year. The conditional formatting can be toggled to highlight either by asset class or by return.
+
+<img src="images/asset_class.gif" alt="Asset Return Map" />
