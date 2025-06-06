@@ -1,5 +1,5 @@
 > [!TIP]
-> What's new? [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
+> What's new? [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
@@ -92,3 +92,9 @@ The [Asset Class](Asset%20Class.pbix) report presents the performance of various
 In the other worksheet, the asset class returns are displayed in a tabular format, sorted in descending order by return for each calendar year. The conditional formatting can be toggled to highlight either by asset class or by return.
 
 <img src="images/asset_class.gif" alt="Asset Return Map" />
+
+## Project 11: Exchange Traded Funds
+
+The [ETF](ETF.pbix) Report features an interactive screener that allows users to find ETFs by asset class, market type, and region.
+
+<img src="images/etf.png" alt="ETF Screener" />
