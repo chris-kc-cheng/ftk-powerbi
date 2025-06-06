@@ -5,33 +5,57 @@
 
 This is an experimental repository created for learning and educational purposes.
 
-## Project 1: Time Series Analysis
+## Project 11: Exchange Traded Funds
 
-The [Time Series Analysis](Time%20Series%20Analysis.pbix) report contains two pages. The **Metrics** page displays key performance and risk metrics, with interactive slicers to select the fund, benchmark, risk-free rate, time horizon, market condition (up, down, or all), and confidence interval.
+The [ETF](ETF.pbix) Report features an interactive screener that allows users to find ETFs by asset class, market type, and region. It also includes a slicer that lets users toggle the breakdown by fund count or by AUM.
 
-<img src="images/ftk_metrics.png" alt="Metrics" />
+<img src="images/etf.png" alt="ETF Screener" />
 
-The **Charts** page visualizes the time series of a selected performance or risk metric, which can be displayed on a cumulative, rolling, trailing, or calendar-year basis.
+In the Holdings worksheet, users can choose from a selection of the most popular ETFs and view their overview, top 10 holdings, and breakdown by country and sector.
 
-<img src="images/ftk_charts.png" alt="Charts" />
+<img src="images/holdings.png" alt="ETF Holdings" />
 
-## Project 2: Option Strategies
+## Project 10: Asset Return Map
 
-The [Option Strategies](Option%20Strategies.pbix) report presents the values of individual securities and the total payoffs of various option strategies. Theoretical option values are calculated using the Black-Scholes model.
+The [Asset Class](Asset%20Class.pbix) report presents the performance of various asset classes over time, using selected indexes or ETFs as proxies.
 
-<img src="images/options.png" alt="Option Strategies" />
+<img src="images/asset_class.png" alt="Asset Return Map" />
 
-## Project 3: MSCI Real Time Index
+In the other worksheet, the asset class returns are displayed in a tabular format, sorted in descending order by return for each calendar year. The conditional formatting can be toggled to highlight either by asset class or by return.
 
-The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses Power Query to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
+<img src="images/asset_class.gif" alt="Asset Return Map" />
 
-<img src="images/msci.png" alt="MSCI Real Time Index" />
+## Project 9: Hedge Fund
 
-## Project 4: Stock Monitor
+The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fund indices across different regions, investment strategies, and time horizons.
 
-The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve historical stock prices from Yahoo! Finance and displays them in a line chart. A slicer is included to normalize the starting stock price to $100, enabling a more meaningful comparison across different stocks.
+<img src="images/hedge_funds.png" alt="Hedge Funds" />
 
-<img src="images/stocks.png" alt="Stock Monitor" />
+The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. Users can **drill down** to view returns by quarter and month by clicking the double down ⬇️⬇️ button.
+
+<img src="images/hf_strategy_map.png" alt="Strategy Return Map" />
+
+## Project 8: Future Contracts
+
+The [Futures](Futures.pbix) report presents the top five futures by trading volume within each category.
+
+<img src="images/futures.png" alt="Futures" />
+
+To access detailed data on individual contracts and their forward curves, right-click and select **Drill Through**.
+
+<img src="images/contracts.png" alt="Contracts" />
+
+## Project 7: Exchange Rates
+
+The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time. Use the tabs to navigate between currencies by region (note: CAD and USD are always shown for reference). Hover over any cell to view the direct and indirect exchange rates, as well as their respective changes during the selected period.
+
+<img src="images/forex.png" alt="Exchange Rates" />
+
+## Project 6: Purchasing Power Parity
+
+The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the Purchasing Power Parity (PPP) conversion factor from the World Bank and annual exchange rates from the Bank of Canada to calculate the extent to which a currency is overvalued or undervalued relative to its Purchasing Power Parity (PPP)-implied value against the Canadian dollar.
+
+<img src="images/ppp.png" alt="Purchasing Power Parity" />
 
 ## Project 5: Yield Curve and Option-Adjusted Spread
 
@@ -51,50 +75,30 @@ In the Policy Rate worksheet, Power Query retrieves historical central bank poli
 
 <img src="images/policy_rate.png" alt="Central Bank Policy Rate" />
 
-## Project 6: Purchasing Power Parity
+## Project 4: Stock Monitor
 
-The [Purchasing Power Parity](Purchasin%20Power%20Parity.pbix) report uses the Purchasing Power Parity (PPP) conversion factor from the World Bank and annual exchange rates from the Bank of Canada to calculate the extent to which a currency is overvalued or undervalued relative to its Purchasing Power Parity (PPP)-implied value against the Canadian dollar.
+The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve historical stock prices from Yahoo! Finance and displays them in a line chart. A slicer is included to normalize the starting stock price to $100, enabling a more meaningful comparison across different stocks.
 
-<img src="images/ppp.png" alt="Purchasing Power Parity" />
+<img src="images/stocks.png" alt="Stock Monitor" />
 
-## Project 7: Exchange Rates
+## Project 3: MSCI Real Time Index
 
-The [Forex](Forex.pbix) report uses the Bank of Canada's average daily exchange rates to calculate cross rates and percentage changes over time. Use the tabs to navigate between currencies by region (note: CAD and USD are always shown for reference). Hover over any cell to view the direct and indirect exchange rates, as well as their respective changes during the selected period.
+The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses Power Query to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
 
-<img src="images/forex.png" alt="Exchange Rates" />
+<img src="images/msci.png" alt="MSCI Real Time Index" />
 
-## Project 8: Future Contracts
+## Project 2: Option Strategies
 
-The [Futures](Futures.pbix) report presents the top five futures by trading volume within each category.
+The [Option Strategies](Option%20Strategies.pbix) report presents the values of individual securities and the total payoffs of various option strategies. Theoretical option values are calculated using the Black-Scholes model.
 
-<img src="images/futures.png" alt="Futures" />
+<img src="images/options.png" alt="Option Strategies" />
 
-To access detailed data on individual contracts and their forward curves, right-click and select **Drill Through**.
+## Project 1: Time Series Analysis
 
-<img src="images/contracts.png" alt="Contracts" />
+The [Time Series Analysis](Time%20Series%20Analysis.pbix) report contains two pages. The **Metrics** page displays key performance and risk metrics, with interactive slicers to select the fund, benchmark, risk-free rate, time horizon, market condition (up, down, or all), and confidence interval.
 
-## Project 9: Hedge Fund
+<img src="images/ftk_metrics.png" alt="Metrics" />
 
-The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fund indices across different regions, investment strategies, and time horizons.
+The **Charts** page visualizes the time series of a selected performance or risk metric, which can be displayed on a cumulative, rolling, trailing, or calendar-year basis.
 
-<img src="images/hedge_funds.png" alt="Hedge Funds" />
-
-The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. Users can **drill down** to view returns by quarter and month by clicking the double down ⬇️⬇️ button.
-
-<img src="images/hf_strategy_map.png" alt="Strategy Return Map" />
-
-## Project 10: Asset Return Map
-
-The [Asset Class](Asset%20Class.pbix) report presents the performance of various asset classes over time, using selected indexes or ETFs as proxies.
-
-<img src="images/asset_class.png" alt="Asset Return Map" />
-
-In the other worksheet, the asset class returns are displayed in a tabular format, sorted in descending order by return for each calendar year. The conditional formatting can be toggled to highlight either by asset class or by return.
-
-<img src="images/asset_class.gif" alt="Asset Return Map" />
-
-## Project 11: Exchange Traded Funds
-
-The [ETF](ETF.pbix) Report features an interactive screener that allows users to find ETFs by asset class, market type, and region.
-
-<img src="images/etf.png" alt="ETF Screener" />
+<img src="images/ftk_charts.png" alt="Charts" />
