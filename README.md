@@ -5,6 +5,10 @@
 
 This is an experimental repository created for learning and educational purposes.
 
+## Project 12: Equity Dashboard
+
+
+
 ## Project 11: Exchange Traded Funds
 
 The [ETF](ETF.pbix) Report features an interactive screener that allows users to find ETFs by asset class, market type, and region. It also includes a slicer that lets users toggle the breakdown by fund count or by AUM.
