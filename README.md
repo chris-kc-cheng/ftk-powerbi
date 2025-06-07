@@ -1,17 +1,22 @@
 > [!TIP]
-> What's new? [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
+> What's new? [Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
-This is an experimental repository created for learning and educational purposes.
+This is an experimental repository created for learning and educational purposes. The core theme in 2025 is to build a series of dashboard screens that provide clear, concise summaries of key information about major asset classes and instruments, all sourced from free data providers. The goal is to simulate the functionality of professional financial platforms and offer an accessible alternative, or a "poor man's Bloomberg terminal", for those who want to explore markets and analytics without costly subscriptions.
 
 ## Project 12: Equity Dashboard
 
+The [Equity Dashboard](Equity.pbix) report shows the stock return and contribution to the MSCI ACWI Index by individual stock, country, and sector over different time horizons (MTD/QTD/YTD).
 
+<img src="images/equity.png" alt="Equity Dashboard" />
+
+> [!NOTE]  
+> Due to the limitations of the free data source, the analysis does not include stocks listed on certain exchanges, including Oslo, Tokyo, Singapore, and Shanghai (A).
 
 ## Project 11: Exchange Traded Funds
 
-The [ETF](ETF.pbix) Report features an interactive screener that allows users to find ETFs by asset class, market type, and region. It also includes a slicer that lets users toggle the breakdown by fund count or by AUM.
+The [ETF](ETF.pbix) report features an interactive screener that allows users to find ETFs by asset class, market type, and region. It also includes a slicer that lets users toggle the breakdown by fund count or by AUM.
 
 <img src="images/etf.png" alt="ETF Screener" />
 
@@ -97,7 +102,7 @@ The [Option Strategies](Option%20Strategies.pbix) report presents the values of 
 
 <img src="images/options.png" alt="Option Strategies" />
 
-## Project 1: Time Series Analysis
+## Project 1: Mutual Funds / Time Series Analysis
 
 The [Time Series Analysis](Time%20Series%20Analysis.pbix) report contains two pages. The **Metrics** page displays key performance and risk metrics, with interactive slicers to select the fund, benchmark, risk-free rate, time horizon, market condition (up, down, or all), and confidence interval.
 
