@@ -90,11 +90,11 @@ The [Stock Monitor](Stock%20Monitor.pbix) report uses Power Query to retrieve hi
 
 <img src="images/stocks.png" alt="Stock Monitor" />
 
-## Project 3: MSCI Real Time Index
+## Project 3: Equity Market Index
 
-The [MSCI Real Time Index](MSCI%20Real%20Time%20Index.pbix) report uses Power Query to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
+The [Real Time Index](Real%20Time%20Index.pbix) report uses Power Query to retrieve real-time performance data from the [MSCI website](https://www.msci.com/real-time-index-data-search) and displays it in a bar chart. The data is delayed by 20 minutes. The base currency is predetermined and not user-configurable.
 
-<img src="images/msci.png" alt="MSCI Real Time Index" />
+<img src="images/index_rt.png" alt="Real Time Market Index" />
 
 ## Project 2: Option Strategies
 
