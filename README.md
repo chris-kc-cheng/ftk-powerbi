@@ -5,9 +5,13 @@
 
 This is an experimental repository created for learning and educational purposes. The core theme in 2025 is to build a series of dashboard screens that provide clear, concise summaries of key information about major asset classes and instruments, all sourced from free data providers. The goal is to simulate the functionality of professional financial platforms and offer an accessible alternative, or a "poor man's Bloomberg terminal", for those who want to explore markets and analytics without costly subscriptions.
 
-## Project 13: Liquidity Waterfall
+## Project 13: Liquidity Analysis
 
-Mar 31, 2025 holdings of Fidelity Small Cap America Fund is used as an example.
+Although mutual funds can typically be redeemed on a daily basis, not all of their underlying stocks are equally liquid. If the liquidity of the portfolio holdings does not align with the fund’s redemption terms, the fund may struggle to meet redemption requests without incurring significant market impact costs.
+
+In the [Liquidity](Liquidity.pbix) Report, the fund’s liquidity profile is assessed using a burndown chart, which considers the weight of each stock in the portfolio, the trading volume of those stocks, and the fund’s assets under management (AUM). The report uses the holdings of the Fidelity Small Cap America Fund as of March 31, 2025, as an example to illustrate this analysis.
+
+<img src="images/liquidity.png" alt="Liquidity Analysis" />
 
 ## Project 12: Equity Dashboard
 
