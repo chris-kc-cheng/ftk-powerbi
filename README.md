@@ -5,6 +5,10 @@
 
 This is an experimental repository created for learning and educational purposes. The core theme in 2025 is to build a series of dashboard screens that provide clear, concise summaries of key information about major asset classes and instruments, all sourced from free data providers. The goal is to simulate the functionality of professional financial platforms and offer an accessible alternative, or a "poor man's Bloomberg terminal", for those who want to explore markets and analytics without costly subscriptions.
 
+## Project 13: Liquidity Waterfall
+
+Mar 31, 2025 holdings of Fidelity Small Cap America Fund is used as an example.
+
 ## Project 12: Equity Dashboard
 
 The [Equity Dashboard](Equity.pbix) report shows the stock return and contribution to the MSCI ACWI Index by individual stock, country, and sector over different time horizons (MTD/QTD/YTD).
