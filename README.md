@@ -1,9 +1,16 @@
 > [!TIP]
-> What's new? [Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
+> What's new? [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
+[Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
 This is an experimental repository created for learning and educational purposes. The core theme in 2025 is to build a series of dashboard screens that provide clear, concise summaries of key information about major asset classes and instruments, all sourced from free data providers. The goal is to simulate the functionality of professional financial platforms and offer an accessible alternative, or a "poor man's Bloomberg terminal", for those who want to explore markets and analytics without costly subscriptions.
+
+## Project 14: Style Drift Detection
+
+Style drift becomes a concern when alpha is diluted as assets under management (AUM) increase. To evaluate how a portfolio's characteristics evolve over time, a snail trail visualization can be used. In the [Style](Style.pbix) Report, two snail trail charts are included to illustrate changes in rolling active return and tracking error. One chart is static, where more recent data points are represented by larger and darker dots. The other is animated. Click the ▶️ button to view the portfolio's progression over time.
+
+<img src="images/style.png" alt="Style Analysis" />
 
 ## Project 13: Liquidity Analysis
 
