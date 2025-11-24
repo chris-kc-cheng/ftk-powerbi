@@ -1,10 +1,16 @@
 > [!TIP]
-> What's new? [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
+> What's new? [Private Market](#project-15-private-market-dashboard) (11/23), [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
 [Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
 
 # Financial Toolkit in PowerBI
 
 This is an experimental repository created for learning and educational purposes. The core theme in 2025 is to build a series of dashboard screens that provide clear, concise summaries of key information about major asset classes and instruments, all sourced from free data providers. The goal is to simulate the functionality of professional financial platforms and offer an accessible alternative, or a "poor man's Bloomberg terminal", for those who want to explore markets and analytics without costly subscriptions.
+
+## Project 15: Private Market Dashboard
+
+In public markets, performance is usually measured with time-weighted returns. In private markets, however, managers control the timing of capital calls and distributions, so money-weighted returns are more relevant. This [dashboard](Private%20Markets.pbix) reports the IRR (a money-weighted measure), alongside key private market metrics such as DPI, RVPI, and TVPI, for each private asset investment made by the Washington State Investment Board between Q1 2009 and Q2 2021.
+
+<img src="images/private_markets.png" alt="Private Markets" />
 
 ## Project 14: Style Drift Detection
 
