@@ -10,7 +10,7 @@ This is an experimental repository created for learning and educational purposes
 
 In public markets, performance is usually measured with time-weighted returns. In private markets, however, managers control the timing of capital calls and distributions, so money-weighted returns are more relevant. This [Private Market Dashboard](Private%20Markets.pbix) reports the IRR (a money-weighted measure), alongside key private market metrics such as DPI, RVPI, and TVPI, for each private asset investment made by the Washington State Investment Board between Q1 2009 and Q2 2021. A drill-through filter is also available, illustrating how all performance metrics evolve over time in response to changes in cash flows and valuations.
 
-<img src="images/private_markets.png" alt="Private Markets" />
+<img src="images/private_markets.gif" alt="Private Markets" />
 
 ## Project 14: Style Drift Detection
 
