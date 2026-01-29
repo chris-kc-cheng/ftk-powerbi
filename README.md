@@ -1,6 +1,6 @@
 > [!TIP]
-> What's new? [Private Market](#project-15-private-market-dashboard) (11/23), [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
-[Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4), [Hedge Fund](#project-9-hedge-fund), (6/2) [Futures](#project-8-future-contracts) (6/1), [Exchange Rates](#project-7-exchange-rates) (5/31), [SOFR Forward Curve](#project-5-yield-curve-and-option-adjusted-spread) (5/30)
+> What's new? [Hedge Fund Risk Model](#project-9-hedge-fund) (1/29), [Private Market](#project-15-private-market-dashboard) (11/23), [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
+[Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4)
 
 # Financial Toolkit in PowerBI
 
@@ -64,6 +64,10 @@ The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fun
 The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. Users can **drill down** to view returns by quarter and month by clicking the double down ⬇️⬇️ button.
 
 <img src="images/hf_strategy_map.png" alt="Strategy Return Map" />
+
+Added Fung and Hsieh (2004) seven-factor model
+
+https://people.duke.edu/~dah7/HFRFData.htm
 
 ## Project 8: Future Contracts
 
