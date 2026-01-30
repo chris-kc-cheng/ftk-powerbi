@@ -55,19 +55,13 @@ In the other worksheet, the asset class returns are displayed in a tabular forma
 
 <img src="images/asset_class.gif" alt="Asset Return Map" />
 
-## Project 9: Hedge Fund
+## Project 9: Hedge Fund Strategy Map and Risk Factor Model
 
-The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fund indices across different regions, investment strategies, and time horizons.
+The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fund indices across different regions, investment strategies, and time horizons. A tooltip shows the percentage of constituent funds that have reported their returns.
 
-<img src="images/hedge_funds.png" alt="Hedge Funds" />
+The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. A tooltip shows the sensitivities to the seven hedge fund risk factors described in the [Fung and Hsieh (2004)](https://people.duke.edu/~dah7/HFRFData.htm) paper.
 
-The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. Users can **drill down** to view returns by quarter and month by clicking the double down ⬇️⬇️ button.
-
-<img src="images/hf_strategy_map.png" alt="Strategy Return Map" />
-
-Added Fung and Hsieh (2004) seven-factor model
-
-https://people.duke.edu/~dah7/HFRFData.htm
+<img src="images/hedge_fund.gif" alt="Hedge Funds" />
 
 ## Project 8: Future Contracts
 
