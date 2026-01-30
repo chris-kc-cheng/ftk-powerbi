@@ -1,5 +1,5 @@
 > [!TIP]
-> What's new? [Hedge Fund Risk Model](#project-9-hedge-fund) (1/29), [Private Market](#project-15-private-market-dashboard) (11/23), [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
+> What's new? [Hedge Fund Risk Model](#project-9-hedge-fund-strategy-map-and-risk-factor-model) (1/29), [Private Market](#project-15-private-market-dashboard) (11/23), [Style Drift](#project-14-style-drift-detection) (6/13), [Liquidity Analysis](#project-13-liquidity-analysis) (6/12),
 [Equity Dashboard](#project-12-equity-dashboard) (6/7), [ETF](#project-11-exchange-traded-funds) (6/5), [Asset Return Map](#project-10-asset-return-map) (6/4)
 
 # Financial Toolkit in PowerBI
@@ -60,6 +60,18 @@ In the other worksheet, the asset class returns are displayed in a tabular forma
 The [Hedge Fund](Hedge%20Fund.pbix) report analyzes the performance of hedge fund indices across different regions, investment strategies, and time horizons. A tooltip shows the percentage of constituent funds that have reported their returns.
 
 The second worksheet displays the flagship hedge fund indexes using a Value Added Monthly Index (VAMI) chart, shows the Compound Annual Growth Rate (CAGR) in a bar chart, and presents annual returns in a table. A tooltip shows the sensitivities to the seven hedge fund risk factors described in the [Fung and Hsieh (2004)](https://people.duke.edu/~dah7/HFRFData.htm) paper.
+
+```math
+R_{t} = \alpha
++ \beta_{RMRF} RMRF_{t}
++ \beta_{SMB} SMB_{t}
++ \beta_{TREAS10Y} TREAS10Y_{t}
++ \beta_{CREDIT} CREDIT_{t}
++ \beta_{BONDPTFS} BONDPTFS_{t}
++ \beta_{CURRPTFS} CURRPTFS_{t}
++ \beta_{COMMPTFS} COMMPTFS_{t}
++ \varepsilon_t
+```
 
 <img src="images/hedge_fund.gif" alt="Hedge Funds" />
 
